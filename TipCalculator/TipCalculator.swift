@@ -10,8 +10,8 @@ import Foundation
 
 class TipCalculator {
     
-    let total: Double
-    let taxPct: Double
+    var total: Double
+    var taxPct: Double
     var subtotal: Double {
         get {
             return total / (taxPct + 1)
